@@ -36,7 +36,7 @@ export default class Layout extends Component {
 
     return (
       <div className="Docs Layout">
-        <Header>
+        <Header className="Header-fixed">
           <div className="MainHeader-brand">
             <Link to="/">
               <span className="MainHeader-logo">
